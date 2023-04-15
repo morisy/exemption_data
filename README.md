@@ -1,6 +1,7 @@
 ## Data Dictionary
 
-* `exemption_id``: Currently, the full name of the jurisdiction plus a sequential ID made up of five digits, such as Alabama-00001. Highly likely to be subject to future revision.
+
+* `exemption_id`: Currently, the full name of the jurisdiction plus a sequential ID made up of five digits, such as Alabama-00001. Highly likely to be subject to future revision.
 * `exemption_name` As canonical a name for the exemption as possible, for example, a specific legislative statute, “Glomar Response,” or “Constructive Denial.” 
 * `jurisdiction`: The jurisdiction that the exemption is applicable to. For exemptions that span multiple states, such as *McBurney v. Young*, each would have its own *McBurney v. Young* exemption with a different jurisdiction where it applies.
 * `status`: Active, if clearly still applicable and “live” law. Repealed, if repealed through statute. Overturned, if invalidated by court. Active but Unsettled if conflicting details on current status but still being regularly cited. Unsettled if highly ambitious and not tested widely. 
