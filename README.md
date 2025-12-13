@@ -8,7 +8,7 @@
 * `type`: Legislative Exemption, Regulation, Advisory Opinion, Informal Exemption
 * `synonyms`: Other ways that the exemption is referred to preicsely. 
 * `signal_phrases`: Phrases that indicate a 80% or higher chance that the exemption is being invoked in a rejection letter.
-* `potential_signal_phrases`: Phrases that indicate a 30% or higher chance that the exemption is being invoked ina rejection letter.
+* `potential_signal_phrases`: Phrases that indicate a 30% or higher chance that the exemption is being invoked in a rejection letter.
 * `related_exemptions`: The `exemption_id` of other exemptions that might have useful information for people researching a particular exemption, such as a parent exemption or a carveout.
 * `examples_of_use`: MR numbers to requests that cite thie exeption OR URLs pointing off-MuckRock to examples of the exemption in the wild.
 * `succesful_appeals`: MR numbers of requests where the exemption was succesfully appealed or links to detailed examples, including appeal language, where an appeal succesfully worked.
@@ -18,4 +18,4 @@
 * `contributors`: A list of comma-separated links including the names (or pseudonyms) of any contributors that wish to be identified as well as links back to homepages, MuckRock accounts, etc.
 * `parent_exemptions`: If this exemption is a subset of another exemption or is the state implementation of a federal exemption, a link to the "parent" exemption.
 * `case_law`: The names of any relevant litigation, formatted in markdown and, where possible, links to the most requester-friendly explanation of that case.
-* `tags`: TBD
+* 
