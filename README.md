@@ -12,7 +12,6 @@ Note that the exemption database includes entries for items that are not technic
 * `alternative_citations`: Other ways that the exemption is referred to precisely. Separated by `|`.
 * `almost_certain_keywords`: Phrases that indicate a 90% or higher chance that the exemption is being invoked in a rejection letter. Separated by `|`.
 * `likely_keywords`: Phrases that indicate a 60% or higher chance that the exemption is being invoked in a rejection letter. Separated by `|`.
-* `related_exemptions`: The `exemption_id` of other exemptions that might have useful information for people researching a particular exemption, such as a parent exemption or a carveout.
 * `examples_of_use`: MR numbers to requests that cite thie exeption OR URLs pointing off-MuckRock to examples of the exemption in the wild. Separated by commas.
 * `succesful_appeals`: MR numbers of requests where the exemption was succesfully appealed or links to detailed examples, including appeal language, where an appeal succesfully worked. Separated by commas.
 * `government_description`: A verbatim overview of the exemption provided by a government-source, pulled from the most comprehensive, authoratitve source available. Should be replaced if and when a superior source is created or discovered. Can range from language use in rejection letters to OIP/DOJ guidance.
@@ -23,6 +22,7 @@ Note that the exemption database includes entries for items that are not technic
 * `example_appeal`: Ideally this is based off of a successfully filed appeal that we know has worked at least once, but even if you just try to put together a good guess at what the appeal would look like, it can be very helpful. Make sure to point to statute in the appeal, when necessary. You can include multiple appeals if there’s different paths that might be helpful. These should be written somewhat generically so that someone can copy and paste it and quickly adapt it to suit their specific situation. Seperate different appeals with `|`.
 * `contributors`: A list of comma-separated links including the names (or pseudonyms) of any contributors that wish to be identified as well as links back to homepages, MuckRock accounts, etc. Over time, if someone overhauls an entry, we would include the original contributors names as well as the new contributors — we just keep adding and acknowledging folks.
 * `parent_exemptions`: If this exemption is a subset of another exemption or is the state implementation of a federal exemption, a link to the "parent" exemption.
+* `related_exemptions`: The `exemption_id` of other exemptions that might have useful information for people researching a particular exemption, such as a parent exemption or a carveout.
 * `case_law`: The names of any relevant litigation, formatted in markdown and, where possible, links to the most requester-friendly explanation of that case.
 * `contributor_notes`: Internal notes such as flagging potential upcoming changes, areas for further research, etc.
 
