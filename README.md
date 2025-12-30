@@ -32,7 +32,7 @@ Formatting Notes: Some sections such as `examples_of_use` and `contributors` sep
 
 Many of these will directly correspond to specific statutes, case law, etc. within a given state. In those cases, the specific statute should be cited, and these included in alternative citatinos. If no specific statute is known, just use these names as the name of the exemption.
 
- ### Requester Non-Responsive
+### Requester Non-Responsive
 
 The agency states that they have reached out and requested some sort of clarification or confirmation from the requester, but haven’t received any so they are administratively closing the request.
 
@@ -67,4 +67,9 @@ The agency states that it has already provided the records to the requester, but
 ### Agency Exempt From Law
 
 The agency states that it has already provided the records to the requester, but it is not providing the requested materials again in the current response. In some cases, the agency indicates that it will not provide the materials again in the future.
+
+### Ongoing Investigation
+
+The agency states that the materials pertain to an ongoing or potentially ongoing investigation, and so are not subject to release.
+
 
