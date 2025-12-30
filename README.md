@@ -1,6 +1,5 @@
 ## Data Dictionary
 
-
 * `exemption_id`: Currently, the full name of the jurisdiction plus a sequential ID made up of five digits, such as AK00001. Likely to be subject to future revision.
 * `jurisdiction`: The jurisdiction that the exemption is applicable to. For exemptions that span multiple states, such as *McBurney v. Young*, each would have its own *McBurney v. Young* exemption with a different jurisdiction where it applies.
 * `exemption_name` As canonical a name for the exemption as possible, for example, a specific legislative statute (), specific legal citation (i.e., "ACLU V. DEUKMAJIAN (1982) 32 CAL.3D 440, 452-453"), or term used for a specific category of rejection, such “Glomar Response” or “Constructive Denial.” 
@@ -19,3 +18,44 @@
 * `parent_exemptions`: If this exemption is a subset of another exemption or is the state implementation of a federal exemption, a link to the "parent" exemption.
 * `case_law`: The names of any relevant litigation, formatted in markdown and, where possible, links to the most requester-friendly explanation of that case.
 * `contributor_notes`: Internal notes such as flagging potential upcoming changes, areas for further research, etc.
+
+## Common Exemption Categories
+
+Many of these will directly correspond to specific statutes, case law, etc. within a given state. The most
+
+ ### Requester Non-Responsive
+
+The agency states that they have reached out and requested some sort of clarification or confirmation from the requester, but haven’t received any so they are administratively closing the request.
+
+### Vague or Not Reasonably Described
+
+The agency states that the request is asking for too much material, would require too extensive a search, or is otherwise not practical for them to process, and so they are rejecting or declining to process the request.
+
+### Overly Broad or Unduly Burdensome
+
+The agency states that the request is asking for too much material, would require too extensive a search, or is otherwise not practical for them to process, and so they are rejecting or declining to process the request.
+
+### Materials Publicly Available
+
+The agency states that the material requested is publicly available online and so they will not be directly providing the materials to the requester. They may indicate a specific place to look or generally indicate that the materials are available.
+
+### Duplicate Request
+
+The agency states that the requester has previously submitted a similar or identical request, and that it will not be also processing this new request.
+
+### No Responsive Documents
+
+The agency states that there are no responsive documents for the given request.
+
+### Previously Completed
+
+The agency states that it has already provided the records to the requester, but it is not providing the requested materials again in the current response. In some cases, the agency indicates that it will not provide the materials again in the future.
+
+### Payment Required
+
+The agency states that it has already provided the records to the requester, but it is not providing the requested materials again in the current response. In some cases, the agency indicates that it will not provide the materials again in the future.
+
+### Agency Exempt From Law
+
+The agency states that it has already provided the records to the requester, but it is not providing the requested materials again in the current response. In some cases, the agency indicates that it will not provide the materials again in the future.
+
